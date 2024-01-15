@@ -814,7 +814,7 @@ h2 {
 }
 
 .modal-input:focus {
-  border-color: #4d5ae5;
+  border-color: var(--purple);
 }
 
 .modal-user-name-svg {
@@ -826,7 +826,7 @@ h2 {
 }
 
 .modal-input:focus + .modal-user-name-svg {
-  fill: #4d5ae5;
+  fill: var(--purple);
 }
 
 .modal-comment {
@@ -842,6 +842,7 @@ h2 {
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  background-color: transparent;
   padding: 8px 16px;
   outline: transparent;
   resize: none;
@@ -868,11 +869,11 @@ h2 {
 }
 
 .modal-checkbox-span {
-  width: 16;
+  width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-colour 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
