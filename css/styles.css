@@ -858,6 +858,7 @@ h2 {
 }
 
 .modal-checkbox-input {
+  /* padding-left: 50px; */
 }
 
 .modal-checkbox-label {
@@ -885,10 +886,11 @@ h2 {
 .modal-checkbox-svg {
 }
 
-.modal-checkbox-input:checked + .modal-checkbox-svg {
+.modal-checkbox-input:checked + .modal-checkbox-link span:first-child {
   background-color: var(--modal-checkbox);
   border: none;
-  fill: var(--off-white);
+  fill: var(--white);
+  /* accent-color: var(--off-white); */
 }
 
 .modal-checkbox-link {
