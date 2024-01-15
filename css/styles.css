@@ -893,8 +893,8 @@ h2 {
 .modal-checkbox-input:focus + .modal-checkbox-label .modal-checkbox-span {
   background-color: var(--modal-checkbox);
   border: none;
-  fill: var(--white);
-  /* accent-color: var(--off-white); */
+  /* fill: var(--white); */
+  accent-color: var(--off-white);
 }
 
 .modal-checkbox-link {
