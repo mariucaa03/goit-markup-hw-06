@@ -649,6 +649,15 @@ h2 {
 
 .customer-logo {
   fill: currentColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 32px;
+}
+
+.customer-logo:hover,
+customer-logo:focus {
+  fill: #404bbf;
 }
 
 .container-footer {
@@ -734,6 +743,7 @@ h2 {
 }
 
 .modal-button {
+  border: 1px solid rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 24px;
   right: 24px;
@@ -744,7 +754,6 @@ h2 {
   align-items: center;
   justify-content: center;
   background-color: #e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -902,27 +911,19 @@ h2 {
   color: var(--purple);
 }
 
-.modal-button {
+.form-button {
+  font-family: "Roboto", sans-serif;
   display: block;
-  margin: 504px 120px 24px 120px;
   min-width: 169px;
   height: 56px;
-  flex-shrink: "Roboto";
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white);
+  color: #ffffff;
   cursor: pointer;
-  background-color: var(--purple);
+  background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  /* font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--white);
-  cursor: pointer;
-  border-radius: 4px; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
