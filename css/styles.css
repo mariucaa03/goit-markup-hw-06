@@ -902,7 +902,7 @@ customer-logo:focus {
 .modal-checkbox-input:checked + .modal-checkbox-label span:first-child {
   background-color: var(--modal-checkbox);
   border: none;
-  fill: var(--white);
+  fill: #f4f4fd;
 
   /* }accent-color: var(--off-white); */
 }
