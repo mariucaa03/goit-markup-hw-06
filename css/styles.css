@@ -656,7 +656,7 @@ h2 {
 }
 
 .customer-logo:hover,
-customer-logo:focus {
+.customer-logo:focus {
   fill: #404bbf;
 }
 
@@ -914,6 +914,8 @@ customer-logo:focus {
 .form-button {
   font-family: "Roboto", sans-serif;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   min-width: 169px;
   height: 56px;
   font-size: 16px;
