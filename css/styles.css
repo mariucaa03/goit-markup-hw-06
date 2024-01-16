@@ -899,7 +899,7 @@ customer-logo:focus {
   outline: 2px solid var(--modal-checkbox);
 }
 
-.modal-checkbox-input:focus + .modal-checkbox-label .modal-checkbox-span {
+.modal-checkbox-input:checked + .modal-checkbox-label span:first-child {
   background-color: var(--modal-checkbox);
   border: none;
   fill: var(--white);
